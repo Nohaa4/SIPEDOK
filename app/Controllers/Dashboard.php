@@ -49,3 +49,4 @@ class Dashboard extends BaseController
         return view('dashboard/index', $data);
     }
 }
+

@@ -1,4 +1,4 @@
-```php
+
 <?= $this->include('layouts/header') ?>
 
 <style>
@@ -420,7 +420,7 @@ $statusDipilih = (string) (service('request')->getGet('status') ?? '');
                         </td>
                         <td>
                             <a class="btn-view-employee"
-                               href="<?= site_url('data-pegawai') ?>">
+                                href="<?= site_url('monitoring-dokumen/' . $dokumen['kode']) . '?tahun=' . $tahunDipilih ?>">
                                 Lihat pegawai &rarr;
                             </a>
                         </td>
